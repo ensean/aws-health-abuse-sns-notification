@@ -8,10 +8,6 @@
     "EmailAddress": {
       "Type": "String",
       "Description": "Please enter your email address"
-    },
-    "MobilePhone": {
-      "Type": "String",
-      "Description": "Please enter your mobile number with country code, for example, +8615988888888"
     }
   },
   "Resources": {
@@ -21,8 +17,7 @@
         "DisplayName": {"Ref":"SNSTopicName"},
         "TopicName" : {"Ref":"SNSTopicName"},
         "Subscription" : [
-          {"Endpoint": {"Ref":"EmailAddress"}, "Protocol": "email"},
-          {"Endpoint": {"Ref":"MobilePhone"}, "Protocol": "sms"}
+          {"Endpoint": {"Ref":"EmailAddress"}, "Protocol": "email"}
         ]
       }
     },
