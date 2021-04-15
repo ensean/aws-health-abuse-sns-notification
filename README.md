@@ -17,7 +17,7 @@ AWS Personal Health Dashboard 可在 AWS 遇到可能会影响您的事件时提
 - 在**参数**栏目下输入 
 
 	```
-	SNSTopicName: 可以自定义我们需要的SNS主题名字
+	SNSTopicName: 可以自定义我们需要的SNS主题名字，比如PHD-fanout
 	EmailAddress: 需要指定发送的邮箱地址(单个，cloudformation创建之后可以根据需要去SNS主题添加额外邮箱)
 	```
 	点击下一步
