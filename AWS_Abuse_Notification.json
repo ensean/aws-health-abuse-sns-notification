@@ -203,18 +203,7 @@
         "EventPattern": {
             "source": [
               "aws.health"
-            ],
-            "detail-type": [
-              "AWS Health Event"
-            ],
-            "detail": {
-              "service": [
-                "ABUSE"
-              ],
-              "eventTypeCategory": [
-                "issue"
-              ]
-            }
+            ]
         },
         "State": "ENABLED",
         "Targets": [
