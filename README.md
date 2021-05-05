@@ -9,7 +9,7 @@ AWS Personal Health Dashboard 可在 AWS 遇到可能会影响您的事件时提
 
 点击 **Launch Stack** 启动AWS CloudFormation控制台，打开后需要在控制台右上角**选择对应用户业务的配置区域**，本次实验在US-EAST-1 美国弗吉尼亚区域实施:
  
-<a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=AWSAbuseNotifier&templateURL=https://liyx-media.s3-ap-southeast-1.amazonaws.com/scripts/AWS_Abuse_Notification.json" title="Launch Stack"><img src="images/cloudformation-launch-stack.png" alt="Launch Stack" /></a>
+<a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=AWSPHDNotifier&templateURL=https://liyx-media.s3-ap-southeast-1.amazonaws.com/scripts/AWS_Abuse_Notification.json" title="Launch Stack"><img src="images/cloudformation-launch-stack.png" alt="Launch Stack" /></a>
 
 #### 填写配置项
 
@@ -27,5 +27,5 @@ AWS Personal Health Dashboard 可在 AWS 遇到可能会影响您的事件时提
 
 #### 确认AWS SNS 主题下的邮箱订阅（根据需要添加额外的邮箱）
 
-- 切换到AWS SNS 控制台，点击创建的主题**AWSAbuseNotifier**，可以看到当前邮箱终端节点在**等待确认**状态，需要登录邮箱确认订阅该SNS主题方可完成确认
+- 切换到AWS SNS 控制台，点击创建的主题**AWSPHDNotifier**，可以看到当前邮箱终端节点在**等待确认**状态，需要登录邮箱确认订阅该SNS主题方可完成确认
 
